@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-body {
+  background-color: #000; /* Fundo preto */
+  color: white; /* Letras brancas */
+}
+
+.table {
+  background-color: #000; /* Fundo da tabela preto */
+  color: white; /* Letras da tabela brancas */
+}
+
+.table th, .table td {
+  border: 1px solid #fff; /* Borda branca */
+}
+
+button {
+  color: white;
+  background-color: #333; /* Cor de fundo dos botões */
+}
+
+button:hover {
+  background-color: #555; /* Cor de fundo ao passar o mouse */
+}
